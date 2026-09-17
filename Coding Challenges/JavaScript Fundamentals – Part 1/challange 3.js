@@ -1,3 +1,4 @@
+'use strict';
 let dolphinsScore = [96,108,89];
 let koalasScore = [88,91,110];
 let dolphinsTotal = 0;
