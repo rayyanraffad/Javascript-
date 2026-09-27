@@ -18,3 +18,11 @@ for (let i = 0; i < showModel.length; i++) {
 }
 closeModel.addEventListener("click", close);
 overlay.addEventListener("click",close);
+
+document.addEventListener("keydown", function(e) {
+  if (e.key === 'Escape') {
+    if (!modal.classList.contains("hidden")) {
+      close(); 
+    }
+  }
+})
